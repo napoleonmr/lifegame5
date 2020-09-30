@@ -1,5 +1,5 @@
 package lifegame5;
-
+//testing branches
 public class Cell {
 
 	private boolean status;
@@ -13,12 +13,12 @@ public class Cell {
 	public void tick() {
 		if (this.neighbours < 2)
 			this.status= false;
-		
-		
+
+
 	}
 
 	public boolean getStatus() {
-		
+
 		return status;
 	}
 
